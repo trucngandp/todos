@@ -1,0 +1,177 @@
+.App {
+  margin: 0vw 19vw;
+  width: 1024px;
+  height: 755px;
+  font-family: "Roboto";
+  font-size: 24px;
+}
+.navbar {
+  background-color: #675bf1 !important;
+}
+.newTask {
+  background-color: #675bf1;
+  border-radius: 0px 5px 5px 0px;
+  color: white;
+}
+button {
+  margin-left: 10px;
+  border: white solid 1px;
+}
+.form-inline {
+  width: 450px;
+  position: relative;
+}
+.form-inline > input {
+  width: 300px;
+  margin-left: 20px;
+  height: 40px;
+  background-color: #675bf1;
+  border-radius: 5px 0px 0px 5px;
+  border : 2px solid white;
+  position: relative;
+  top: 2px;
+}.form-inline > button {
+  border-radius: 0px 5px 5px 0px;
+color: white;
+  border : 2px solid white;
+}
+
+::placeholder {
+  color: white;
+  font-family: "Roboto";
+  font-size: 18px;
+  opacity: 0.7;
+  
+}
+ul {
+  list-style: none;
+   padding: 0px;
+  width: 100%;
+}
+.sideBar {
+  display: flex;
+  background-color: orange;
+  width: 20%;
+  height: auto;
+}
+ul > li {
+  flex-direction: column;
+  border-bottom: 1px solid white;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 18px;
+  color: white;
+}
+ul>li:hover {
+  cursor: pointer;
+}
+.sideBar>div {
+  height: 500px;
+}
+.container {
+  padding: 0px;
+  display: flex;
+ height: 686px;
+
+}
+.left{
+  width: 80%;
+  position: relative;
+}
+.card-side {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 60px;
+}
+.todolist{
+  box-sizing: border-box;
+  border: 2px solid blue;
+  padding: 9.74px 14.93px;
+  border-radius: 10px;
+  margin: 15px;
+  width: 198.58px;
+  height: 191px;
+  background-color: white;
+}
+.todo{
+  box-sizing: border-box;
+  display: flex;
+  width: 874px;
+  flex-wrap: wrap;
+  background-color: #F5F5F5;
+
+}
+h6{
+  font-weight: bold;
+  font-size: 10px;
+}
+.title{
+  border-bottom: 2px solid #675BF1;
+  padding-bottom: 5px;
+  position: relative;
+  height: 66px;
+}
+p{
+  margin: 0;
+}
+.New, .Doing, .Done{
+  font-weight: bold;
+  font-size: 10px;
+  position:absolute;
+  top: 43px;
+}
+.New{
+  color: #04BE00;
+}
+.Doing{
+  color: #F88F14;
+}
+.Done{
+  color: #675BF1;
+}
+.author {
+  font-size: 14px;
+}
+.descripStyle{
+  width: 169.15px;
+  height: 44.83px;
+  font-size: 14px;
+  line-height: 16.41px;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 1px;
+}
+.descript{
+  height: 24.36px;
+  margin: 5px 0 0;
+  padding-top: 5px;
+  font-weight: 700;
+}
+.select{
+  padding: 1px 8px;
+  border-radius: 10px;
+  margin: 0 auto;
+  border: 1px solid blue;
+  width: 111.3px;
+  height: 26.3px;
+  display: flex;
+  justify-content: space-around;
+  font-weight: 400;
+  align-items: center;
+}
+.description {
+  position: relative;
+}
+.status{
+  text-align: center;
+  align-self: center;
+  position: absolute;
+  top: 65px;
+  left: 28px;
+}
+.pagin {
+  position:absolute;
+  left: 240px;
+}
